@@ -16,23 +16,8 @@ import {
   StatusBar,
   Dimensions
 } from 'react-native';
-import Icon from 'react-native-vector-icons/FontAwesome';
 
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
 import TextAnimator from './src/components/TextAnimator';
-const { width } = Dimensions.get('screen');
-
-const OVERFLOW_HEIGHT = 70;
-const SPACING = 10;
-const ITEM_WIDTH = width * 0.76;
-const ITEM_HEIGHT = ITEM_WIDTH * 1.7;
-const VISIBLE_ITEMS = 3;
 
 
 const App = () => {
