@@ -18,6 +18,7 @@ export default class TextAnimator extends React.Component {
     animated = (toValue =1) =>{
         const aniamtions = this.textArr.map((_, i )=>{
             return Animated.timing(this.animatedValues[i],{
+                useNativeDriver:true,
                 toValue, duration:this.props.duration
             })
         })
