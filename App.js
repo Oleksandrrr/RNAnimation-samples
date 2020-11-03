@@ -16,6 +16,7 @@ import {
   StatusBar,
   Dimensions
 } from 'react-native';
+import Carousel from './src/components/Carousel';
 import PopMotion from './src/components/PopMotion';
 
 import TextAnimator from './src/components/TextAnimator';
@@ -30,7 +31,7 @@ const App = () => {
       {/* <StatusBar /> */}
       {/* <PopMotion/> */}
       {/* <TextAnimator  onFinish ={_onFinish}duration={1000} textStyle={styles.textStyle} style={styles.containerStyle} content="For the things we have to learn before we can do them, we learn by doing them. REACT NATIVE" /> */}
-
+    <Carousel/>
     </View>
   );
 };
@@ -40,8 +41,8 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     backgroundColor: '#ecf0f1',
-    paddingTop: 20,
-    padding: 8
+    // paddingTop: 30,
+    // padding: 8
   },
   containerStyle: {},
   textStyle: {
