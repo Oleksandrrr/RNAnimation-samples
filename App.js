@@ -16,6 +16,7 @@ import {
   StatusBar,
   Dimensions
 } from 'react-native';
+import PopMotion from './src/components/PopMotion';
 
 import TextAnimator from './src/components/TextAnimator';
 
@@ -26,8 +27,10 @@ const App = () => {
   }
   return (
     <View style={styles.constainer}>
-      <StatusBar />
-      <TextAnimator  onFinish ={_onFinish}duration={1000} textStyle={styles.textStyle} style={styles.containerStyle} content="For the things we have to learn before we can do them, we learn by doing them. REACT NATIVE" />
+      {/* <StatusBar /> */}
+      {/* <PopMotion/> */}
+      {/* <TextAnimator  onFinish ={_onFinish}duration={1000} textStyle={styles.textStyle} style={styles.containerStyle} content="For the things we have to learn before we can do them, we learn by doing them. REACT NATIVE" /> */}
+
     </View>
   );
 };
